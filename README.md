@@ -3,7 +3,6 @@
 
 **ShopVerse** is a secure and scalable full-stack e-commerce web application built with **Angular**, **Spring Boot**, and **MySQL**. It supports user authentication, product catalog management, cart functionality, order placement, and role-based admin controls. The project follows industry-standard practices including **JWT authentication**, **RESTful APIs**, **MVC architecture**, and modular UI components.
 
----
 
 ## Tech Stack
 
@@ -15,7 +14,6 @@
 - **Build Tools:** Angular CLI, Maven
 - **Communication:** RESTful APIs
 
----
 
 ## Authentication & Security
 
@@ -24,7 +22,6 @@
 - Angular route protection (AuthGuard + Interceptors)
 - Backend request filtering via Spring Security
 
----
 
 ## Core Functionalities
 
@@ -54,7 +51,6 @@
 - **Entity Layer:** Models like User, Product, Cart, Order, Role
 - **DAO Layer:** Spring Data JPA repositories
 
----
 
 ## 🌐 API Overview (Spring Boot)
 
@@ -66,7 +62,6 @@
 | `/cart` | GET/POST/DELETE | Cart operations |
 | `/order` | GET/POST/PUT | Place and manage orders |
 
----
 
 ## 🧪 Development & Run
 
@@ -93,9 +88,7 @@ spring.datasource.password=your_password
 jwt.secret=your_jwt_secret
 ```
 
----
-
-## 📁 Project Structure
+## Project Structure
 
 ### Frontend (Angular)
 ```
@@ -124,9 +117,8 @@ src/main/java/com/youtube/ecommerce/
 └── EcommerceApplication.java
 ```
 
----
 
-## ✅ Highlights
+## Highlights
 
 - Full-stack implementation with seamless integration
 - Secure login, role-based control, and tokenized sessions
@@ -136,7 +128,7 @@ src/main/java/com/youtube/ecommerce/
 
 ---
 
-## 📌 Future Enhancements
+## Future Enhancements
 
 - Payment gateway integration (e.g., Razorpay, Stripe)
 - Product reviews and ratings
