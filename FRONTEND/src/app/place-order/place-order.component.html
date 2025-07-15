@@ -1,0 +1,46 @@
+<h2>Place Order</h2>
+
+<form (ngSubmit)="placeOrder()" #orderForm="ngForm">
+  <label>Full Name:</label>
+  <input
+    [(ngModel)]="orderInput.fullName"
+    name="fullName"
+    required
+    class="form-control"
+  />
+
+  <label>Address:</label>
+  <textarea
+    [(ngModel)]="orderInput.fullAddress"
+    name="fullAddress"
+    required
+    class="form-control"
+  ></textarea>
+
+  <label>Contact Number:</label>
+  <input
+    [(ngModel)]="orderInput.contactNumber"
+    name="contactNumber"
+    required
+    class="form-control"
+  />
+
+  <label>Alternate Contact Number:</label>
+  <input
+    [(ngModel)]="orderInput.alternateContactNumber"
+    name="alternateContactNumber"
+    class="form-control"
+  />
+
+  <label>Transaction ID (optional):</label>
+  <input
+    [(ngModel)]="orderInput.transactionId"
+    name="transactionId"
+    class="form-control"
+  />
+
+  <br />
+  <button type="submit" mat-raised-button color="primary">
+    Place Order
+  </button>
+</form>

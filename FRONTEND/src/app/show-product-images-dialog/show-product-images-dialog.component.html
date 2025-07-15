@@ -1,0 +1,14 @@
+<mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile *ngFor="let fileHandle of data.images">
+        <img [src]="fileHandle.url" alt="ProductImage"/>
+     </mat-grid-tile>
+    
+</mat-grid-list>
+
+<mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile *ngFor="let safeUrl of safeImages">
+      <img [src]="safeUrl" alt="Product Image" />
+    </mat-grid-tile>
+  </mat-grid-list>
+
+  
