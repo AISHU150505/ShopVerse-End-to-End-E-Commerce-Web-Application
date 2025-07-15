@@ -3,7 +3,6 @@
 
 This is the frontend of **ShopVerse**, a secure, responsive e-commerce web application developed using **Angular 10.1.4**. It provides a complete user and admin interface for managing products, placing orders, viewing cart items, and handling authentication—all connected via RESTful APIs.
 
----
 
 ## Tech Stack
 
@@ -14,8 +13,6 @@ This is the frontend of **ShopVerse**, a secure, responsive e-commerce web appli
 - **UI Management:** Component-based modular architecture
 - **State Handling:** Service-based data sharing
 - **Testing:** Karma, Jasmine
-
----
 
 ## Angular Functionalities
 
@@ -57,7 +54,6 @@ This is the frontend of **ShopVerse**, a secure, responsive e-commerce web appli
 - Form validation for all inputs
 - Dynamic component routing with `app-routing.module.ts`
 
----
 
 ## Directory Overview
 
@@ -82,7 +78,6 @@ src/app/
 └── app.component.*
 ```
 
----
 
 ## Development & Testing
 
@@ -91,13 +86,10 @@ src/app/
 - Unit Tests: `ng test`
 - E2E Tests: `ng e2e`
 
----
 
 ## API Communication
 
 All frontend operations are powered via **RESTful APIs** built with Spring Boot and connected to a MySQL backend.
-
----
 
 ## Notes
 
@@ -105,5 +97,4 @@ All frontend operations are powered via **RESTful APIs** built with Spring Boot 
 - Admin and user experiences are separated via role-based views
 - Uses Angular best practices including lazy loading, services, and guards
 
----
 

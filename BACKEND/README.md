@@ -3,7 +3,6 @@
 
 This is the backend service for **ShopVerse**, a secure, full-stack e-commerce application. Built using **Spring Boot**, the application handles user authentication, product and cart management, and order processing. The backend exposes **RESTful APIs** consumed by an Angular frontend, and stores data securely in a **MySQL** database.
 
----
 
 ## Tech Stack
 
@@ -15,7 +14,6 @@ This is the backend service for **ShopVerse**, a secure, full-stack e-commerce a
 - **Build Tool:** Maven
 - **Utilities:** JWT Token handling, CORS configuration, exception handling
 
----
 
 ## Authentication & Security
 
@@ -24,7 +22,6 @@ This is the backend service for **ShopVerse**, a secure, full-stack e-commerce a
 - Custom `JwtFilter`, `JwtAuthenticationEntryPoint`, and `WebSecurityConfiguration`
 - CORS enabled via global configuration
 
----
 
 ## Main Modules
 
@@ -48,7 +45,6 @@ This is the backend service for **ShopVerse**, a secure, full-stack e-commerce a
 ### Service
 - Services: `UserService`, `ProductService`, `CartService`, `OrderDetailService`, `JwtService`, `RoleService`
 
----
 
 ## API Overview
 
@@ -58,7 +54,6 @@ This is the backend service for **ShopVerse**, a secure, full-stack e-commerce a
 - `POST /cart/add`, `GET /cart`, `DELETE /cart/{id}`
 - `POST /order/place`, `GET /order`, `PUT /order/status/{id}`
 
----
 
 ## Configuration
 
@@ -71,14 +66,12 @@ server.port=8080
 jwt.secret=your_jwt_secret
 ```
 
----
 
 ## Run & Build
 
 - Run: `./mvnw spring-boot:run`
 - Build: `./mvnw clean package`
 
----
 
 ## Features
 
@@ -89,7 +82,6 @@ jwt.secret=your_jwt_secret
 - Robust data persistence via JPA and MySQL
 - Modular service-oriented structure
 
----
 
 ## Project Structure Snapshot
 
@@ -104,6 +96,5 @@ src/main/java/com/youtube/ecommerce
 └── EcommerceApplication.java
 ```
 
----
 
 Let me know if you'd like Swagger/OpenAPI docs or Postman collection setup included.

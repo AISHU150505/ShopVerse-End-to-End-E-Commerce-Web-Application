@@ -126,7 +126,6 @@ src/main/java/com/youtube/ecommerce/
 - REST API communication between Angular and Spring Boot
 - Scalable architecture and modular codebase
 
----
 
 ## Future Enhancements
 
@@ -135,6 +134,6 @@ src/main/java/com/youtube/ecommerce/
 - Email notifications for order updates
 - Dockerized deployment and CI/CD setup
 
----
+
 
 
