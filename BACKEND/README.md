@@ -5,7 +5,7 @@ This is the backend service for **ShopVerse**, a secure, full-stack e-commerce a
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **Backend Framework:** Spring Boot
 - **Security:** Spring Security with JWT
@@ -17,7 +17,7 @@ This is the backend service for **ShopVerse**, a secure, full-stack e-commerce a
 
 ---
 
-## 🔐 Authentication & Security
+## Authentication & Security
 
 - Implements **JWT-based login & token validation**
 - **Role-based access control** for Admin and User
@@ -26,12 +26,12 @@ This is the backend service for **ShopVerse**, a secure, full-stack e-commerce a
 
 ---
 
-## 📦 Main Modules
+## Main Modules
 
-### 📁 Config
+### Config
 - `WebSecurityConfiguration`, `JwtRequestFilter`, `JwtAuthenticationEntryPoint`, `CorsConfiguration`
 
-### 📁 Controller
+### Controller
 - `JwtController` – Handles login and token generation
 - `UserController` – User registration and retrieval
 - `ProductController` – CRUD operations for products
@@ -39,18 +39,18 @@ This is the backend service for **ShopVerse**, a secure, full-stack e-commerce a
 - `OrderDetailController` – Place and track orders
 - `RoleController` – Role-based access endpoints
 
-### 📁 DAO
+### DAO
 - Interfaces: `UserDao`, `ProductDao`, `CartDao`, `OrderDetailDao`, `RoleDao`
 
-### 📁 Entity
+### Entity
 - Models: `User`, `Product`, `Cart`, `OrderDetail`, `OrderInput`, `OrderProductQuantity`, `Role`, `ImageModel`, `JwtRequest`, `JwtResponse`
 
-### 📁 Service
+### Service
 - Services: `UserService`, `ProductService`, `CartService`, `OrderDetailService`, `JwtService`, `RoleService`
 
 ---
 
-## 🌐 API Overview
+## API Overview
 
 - `POST /authenticate` – Login and get JWT token
 - `POST /register` – Register new user
@@ -60,7 +60,7 @@ This is the backend service for **ShopVerse**, a secure, full-stack e-commerce a
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 - Set database and port in `application.properties`
 ```properties
@@ -73,14 +73,14 @@ jwt.secret=your_jwt_secret
 
 ---
 
-## 🧪 Run & Build
+## Run & Build
 
 - Run: `./mvnw spring-boot:run`
 - Build: `./mvnw clean package`
 
 ---
 
-## ✅ Features
+## Features
 
 - Secure login system with token-based authentication
 - Admin-only product management (CRUD with image upload)
@@ -91,7 +91,7 @@ jwt.secret=your_jwt_secret
 
 ---
 
-## 📁 Project Structure Snapshot
+## Project Structure Snapshot
 
 ```bash
 src/main/java/com/youtube/ecommerce

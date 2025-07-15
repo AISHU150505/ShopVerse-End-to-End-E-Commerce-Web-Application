@@ -5,7 +5,7 @@ This is the frontend of **ShopVerse**, a secure, responsive e-commerce web appli
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **Framework:** Angular 10.1.4
 - **Routing:** Angular Router
@@ -17,15 +17,15 @@ This is the frontend of **ShopVerse**, a secure, responsive e-commerce web appli
 
 ---
 
-## 🚀 Angular Functionalities
+## Angular Functionalities
 
-### 🔐 Authentication & Authorization
+### Authentication & Authorization
 - User registration and login using JWT
 - Role-based access for Admin and User
 - Route protection using Auth Interceptors and Guards
 - Forbidden page for unauthorized access
 
-### 🛒 E-Commerce Features
+### E-Commerce Features
 - **Product Management (Admin Only):**
   - Add, edit, delete products
   - Upload product images
@@ -40,7 +40,7 @@ This is the frontend of **ShopVerse**, a secure, responsive e-commerce web appli
   - Item quantity update and removal
   - Price summary and checkout workflow
 
-### 📦 Modular Components
+### Modular Components
 - `add-new-product/` – Add/edit product module
 - `cart/` – Cart view and logic
 - `place-order/` – Order placement UI
@@ -51,7 +51,7 @@ This is the frontend of **ShopVerse**, a secure, responsive e-commerce web appli
 - `admin/` – Admin dashboard
 - `forbidden/` – Access denied handler
 
-### 📋 UI Features
+### UI Features
 - Responsive layout and navigation
 - Error handling and feedback messages
 - Form validation for all inputs
@@ -59,7 +59,7 @@ This is the frontend of **ShopVerse**, a secure, responsive e-commerce web appli
 
 ---
 
-## 📁 Directory Overview
+## Directory Overview
 
 ```bash
 src/app/
@@ -84,7 +84,7 @@ src/app/
 
 ---
 
-## 🧪 Development & Testing
+## Development & Testing
 
 - Run the app: `ng serve`
 - Build: `ng build --prod`
@@ -93,13 +93,13 @@ src/app/
 
 ---
 
-## 🌐 API Communication
+## API Communication
 
 All frontend operations are powered via **RESTful APIs** built with Spring Boot and connected to a MySQL backend.
 
 ---
 
-## 📌 Notes
+## Notes
 
 - JWT token is stored securely for session handling
 - Admin and user experiences are separated via role-based views
