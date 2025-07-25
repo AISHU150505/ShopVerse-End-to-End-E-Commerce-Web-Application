@@ -52,7 +52,7 @@
 - **DAO Layer:** Spring Data JPA repositories
 
 
-## 🌐 API Overview (Spring Boot)
+## API Overview (Spring Boot)
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
@@ -63,7 +63,7 @@
 | `/order` | GET/POST/PUT | Place and manage orders |
 
 
-## 🧪 Development & Run
+## Development & Run
 
 ### Frontend (Angular)
 ```bash
