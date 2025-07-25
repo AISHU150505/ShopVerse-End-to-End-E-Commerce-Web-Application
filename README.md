@@ -44,7 +44,7 @@
 - `product-view-details/` – View individual product
 - `login/`, `register/`, `home/`, `admin/`, `forbidden/`, `header/` – Auth and UI
 
-### 🔧 Backend Modules
+### Backend Modules
 - **Config:** JWT filter, security setup, CORS config
 - **Controller:** Product, Cart, Order, User, Role, Auth
 - **Service Layer:** Business logic for all modules
